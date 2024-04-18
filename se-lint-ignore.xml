@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+    <file path="logo.svg">
+		<ignore>
+			<code>x-001</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+    <file path="logo.svg">
+		<ignore>
+			<code>x-004</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+    <file path="logo.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+    <!-- <file path="content.opf">
+		<ignore>
+			<code>m-007</code>
+			<reason>Producer scan.</reason>
+		</ignore>
+	</file> -->
+    <file path="content.opf">
+		<ignore>
+			<code>m-009</code>
+			<reason>Non-SE hosted.</reason>
+		</ignore>
+	</file>
+    <file path="colophon.xhtml">
+		<ignore>
+			<code>m-037</code>
+			<reason>Translation.</reason>
+		</ignore>
+	</file>
+    <!-- <file path="colophon.xhtml">
+		<ignore>
+			<code>m-007</code>
+			<reason>Producer scan.</reason>
+		</ignore>
+	</file> -->
+    <!-- <file path="colophon.xhtml">
+		<ignore>
+			<code>m-006</code>
+			<reason>Non-standard Gutenberg reference.</reason>
+		</ignore>
+	</file> -->
+    <!-- <file path="content.opf">
+		<ignore>
+			<code>m-006</code>
+			<reason>Non-standard Gutenberg reference.</reason>
+		</ignore>
+	</file> -->
+    <file path="colophon.xhtml">
+		<ignore>
+			<code>m-025</code>
+			<reason>"Translated from" is itself translated.</reason>
+		</ignore>
+	</file>
+    <file path="colophon.xhtml">
+		<ignore>
+			<code>m-035</code>
+			<reason>Translated during production, not a recognized translator.</reason>
+		</ignore>
+	</file>
+
+    <file path="colophon.xhtml">
+		<ignore>
+			<code>m-061</code>
+			<reason>Preceded by "la".</reason>
+		</ignore>
+	</file>
+    <file path="imprint.xhtml">
+		<ignore>
+			<code>m-037</code>
+			<reason>Translation.</reason>
+		</ignore>
+	</file>
+    <!-- <file path="la-pendanta-fremdulo.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>manually reviewed for non-English</reason>
+		</ignore>
+	</file> -->
+	    <file path="la-pendanta-fremdulo.xhtml">
+		<ignore>
+			<code>s-033</code>
+			<reason>mixed language document</reason>
+		</ignore>
+	</file>
+    <!-- <file path="titlepage.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>manually reviewed for non-English</reason>
+		</ignore>
+	</file> -->
+
+    <!-- <file path="titlepage.xhtml">
+		<ignore>
+			<code>s-021</code>
+			<reason>manually reviewed for non-English</reason>
+		</ignore>
+	</file> -->
+
+
+    <file path="colophon.xhtml">
+		<ignore>
+			<code>s-053</code>
+			<reason>manually reviewed, non-standard case</reason>
+		</ignore>
+	</file>
+
+
+    <!-- <file path="cover.svg">
+		<ignore>
+			<code>s-028</code>
+			<reason>manually reviewed</reason>
+		</ignore>
+	</file> -->
+
+
+
+</se-lint-ignore>
