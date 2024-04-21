@@ -12,3 +12,32 @@
 [epub|type~="bridgehead"] em{
 	font-style: normal;
 }
+
+
+
+
+dl{
+	margin: 1em 0;
+	padding-left: 1em;
+}
+
+dd{
+	margin-left: 40px;
+}
+
+dd + dt{
+	margin-top: 1em;
+}
+
+[epub|type~="glossary"] > p {
+	margin-bottom: 1em;
+	font-variant: small-caps;
+	text-decoration: underline;
+	font-size: 1.1em;
+}
+
+[epub|type~="glossary"] [epub|type~="bridgehead"] {
+	margin-top: 0;
+	text-decoration:underline;
+	font-variant: small-caps;
+}
