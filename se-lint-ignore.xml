@@ -30,12 +30,12 @@
 			<reason>Non-SE hosted.</reason>
 		</ignore>
 	</file>
-    <file path="colophon.xhtml">
+    <!-- <file path="colophon.xhtml">
 		<ignore>
 			<code>m-037</code>
 			<reason>Translation.</reason>
 		</ignore>
-	</file>
+	</file> -->
     <!-- <file path="colophon.xhtml">
 		<ignore>
 			<code>m-007</code>
@@ -54,25 +54,24 @@
 			<reason>Non-standard Gutenberg reference.</reason>
 		</ignore>
 	</file> -->
-    <file path="colophon.xhtml">
+    <!-- <file path="colophon.xhtml">
 		<ignore>
 			<code>m-025</code>
 			<reason>"Translated from" is itself translated.</reason>
 		</ignore>
-	</file>
-    <file path="colophon.xhtml">
+	</file> -->
+    <!-- <file path="colophon.xhtml">
 		<ignore>
 			<code>m-035</code>
 			<reason>Translated during production, not a recognized translator.</reason>
 		</ignore>
-	</file>
-
-    <file path="colophon.xhtml">
+	</file> -->
+    <!-- <file path="colophon.xhtml">
 		<ignore>
 			<code>m-061</code>
 			<reason>Preceded by "la".</reason>
 		</ignore>
-	</file>
+	</file> -->
     <file path="imprint.xhtml">
 		<ignore>
 			<code>m-037</code>
@@ -104,23 +103,43 @@
 			<reason>manually reviewed for non-English</reason>
 		</ignore>
 	</file> -->
-
-
-    <file path="colophon.xhtml">
+    <!-- <file path="colophon.xhtml">
 		<ignore>
 			<code>s-053</code>
 			<reason>manually reviewed, non-standard case</reason>
 		</ignore>
-	</file>
-
-
+	</file> -->
     <!-- <file path="cover.svg">
 		<ignore>
 			<code>s-028</code>
 			<reason>manually reviewed</reason>
 		</ignore>
 	</file> -->
+    <file path="glossary.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>glossary</reason>
+		</ignore>
+	</file>
+    <file path="glossary.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>glossary</reason>
+		</ignore>
+	</file>
 
+    <file path="imprint.xhtml">
+		<ignore>
+			<code>m-061</code>
+			<reason>preceding line</reason>
+		</ignore>
+	</file>
 
+    <file path="imprint.xhtml">
+		<ignore>
+			<code>s-012</code>
+			<reason>intended for appearance</reason>
+		</ignore>
+	</file>
 
 </se-lint-ignore>

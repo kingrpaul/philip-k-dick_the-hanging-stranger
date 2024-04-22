@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 440">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 550">
 	<title>The titlepage for the Standard Ebooks edition of The Hanging Stranger, by Philip K. Dick</title>
 	<style type="text/css">
 		text{
@@ -15,8 +15,53 @@
 		.author{
 			font-size: 70.17543793px;
 		}
+
+		.contributor-descriptor{
+			font-family: "OFL Sorts Mill Goudy";
+			font-size: 42.5079689px;
+			font-style: italic;
+			letter-spacing: 0;
+		}
 	</style>
-	<text class="title" x="700" y="130">THE HANGING</text>
-	<text class="title" x="700" y="230">STRANGER</text>
-	<text class="author" x="700" y="390">PHILIP K. DICK</text>
+	<text class="title" x="700" y="130">LA PENDANTA</text>
+	<text class="title" x="700" y="230">FREMDULO</text>
+	<text class="contributor-descriptor" x="700" y="320">an English-Esperanto Reader</text>
+	<text class="contributor-descriptor" x="700" y="380">translated from “The Hanging Stranger” by</text>
+	<text class="author" x="700" y="500">PHILIP K. DICK</text>
 </svg>
+<!-- 
+
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 590">
+	<title>The titlepage for the Standard Ebooks edition of The Golden Ass, by Apuleius. Translated by William Adlington</title>
+	<style type="text/css">
+		text{
+			font-family: "League Spartan";
+			letter-spacing: 5px;
+			text-anchor: middle;
+		}
+
+		.title{
+			font-size: 93.56725311px;
+		}
+
+		.author{
+			font-size: 70.17543793px;
+		}
+
+		.contributor-descriptor{
+			font-family: "OFL Sorts Mill Goudy";
+			font-size: 42.5079689px;
+			font-style: italic;
+			letter-spacing: 0;
+		}
+
+		.contributor{
+			font-size: 46.78362656px;
+		}
+	</style>
+	<text class="title" x="700" y="130">THE GOLDEN ASS</text>
+	<text class="author" x="700" y="290">APULEIUS</text>
+	<text class="contributor-descriptor" x="700" y="480">translated by</text>
+	<text class="contributor" x="700" y="540">WILLIAM ADLINGTON</text>
+</svg> -->
