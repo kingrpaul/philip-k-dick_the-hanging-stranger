@@ -94,8 +94,8 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
-		<itemref idref="glossary.xhtml"/>
 		<itemref idref="la-pendanta-fremdulo.xhtml"/>
 		<itemref idref="the-hanging-stranger.xhtml"/>
+		<itemref idref="glossary.xhtml"/>
 	</spine>
 </package>

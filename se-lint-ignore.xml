@@ -36,19 +36,6 @@
 			<reason>mixed language document</reason>
 		</ignore>
 	</file>
-    <file path="glossary.xhtml">
-		<ignore>
-			<code>t-057</code>
-			<reason>glossary</reason>
-		</ignore>
-	</file>
-    <file path="glossary.xhtml">
-		<ignore>
-			<code>y-003</code>
-			<reason>glossary</reason>
-		</ignore>
-	</file>
-
     <file path="imprint.xhtml">
 		<ignore>
 			<code>m-061</code>
