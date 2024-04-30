@@ -292,12 +292,4 @@
 		</ignore>
 	</file>
 
-    <file path="glossary.xhtml">
-		<ignore>
-			<code>t-001</code>
-			<reason>non-standard layout</reason>
-		</ignore>
-	</file>
-
-
 </se-lint-ignore>
