@@ -43,3 +43,13 @@
 	width: 10%;
 }
 
+#uncopyright{
+	text-align: center;
+}
+
+#uncopyright img{
+	display: block;
+	width:50%;
+	max-width: 40em;
+	margin: 1em auto;
+}
