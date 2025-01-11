@@ -14,40 +14,43 @@
 [epub|type~="bridgehead"] em{
 	font-style: normal;
 }
-/* ========== */
 
-[epub|type~="imprint"] div {
+/* IMPRINT */
+section[epub|type~="imprint"] img {
+	display: block;
+	height: 4em;
+    width: auto;
+	margin: 0 auto;
+}
+
+/* COLOPHON  */
+[epub|type~="colophon"] div {
 	font-variant: small-caps;
 }
-
-[epub|type~="imprint"] div p {
+[epub|type~="colophon"] div p {
 	text-align: center; 
 }
-
-[epub|type~="imprint"] div p:first-of-type,
-[epub|type~="imprint"] div p:nth-of-type(3) {
+[epub|type~="colophon"] div p:first-of-type,
+[epub|type~="colophon"] div p:nth-of-type(3) {
 	margin-bottom: 0; 
 }
-
-[epub|type~="imprint"] div p:nth-of-type(2),
-[epub|type~="imprint"] div p:nth-of-type(4) {
+[epub|type~="colophon"] div p:nth-of-type(2),
+[epub|type~="colophon"] div p:nth-of-type(4) {
 	margin-top: 0; 
 }
-
-[epub|type~="imprint"] > p.colophon {
+[epub|type~="colophon"] > p.colophon {
 	line-height: 1.1;
 	margin-top: 0.5em;
 }
-
-[epub|type~="imprint"] hr {
+[epub|type~="colophon"] hr {
 	width: 10%;
 }
 
-#uncopyright{
+/* UNCOPYRIGHT  */
+section[epub|type~="copyright-page"] {
 	text-align: center;
 }
-
-#uncopyright img{
+section[epub|type~="copyright-page"] img{
 	display: block;
 	width:50%;
 	max-width: 40em;
