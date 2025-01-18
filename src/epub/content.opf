@@ -4,7 +4,8 @@
 		<dc:identifier id="uid">url:https://github.com/kingrpaul/philip-k-dick_the-hanging-stranger</dc:identifier>
 		<dc:date>2024-04-17T23:14:28Z</dc:date>
 		<meta property="dcterms:modified">2024-05-09T23:23:30Z</meta>
-		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<dc:rights>Except as otherwise noted, the sources used in this ebook are believed to be in the US public domain. The ebook itself is dedicated to to the worldwide public domain CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<!-- 	PUBLISH -->
 		<dc:publisher id="publisher">Paul King</dc:publisher>
 		<meta property="file-as" refines="#publisher">King, Paul</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://kingrpaul.github.io</meta>
@@ -15,8 +16,8 @@
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
-		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
-		<!-- <meta property="a11y:certifiedBy">Standard Ebooks</meta> -->
+		<!-- ACCESSIBILITY -->
+		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
@@ -28,57 +29,57 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
+		<!-- DESCRIPTION -->
 		<dc:title id="title">La Pendanta Fremdulo</dc:title>
 		<meta property="file-as" refines="#title">Pendanta Fremdulo, La</meta>
-		<dc:subject id="subject-1">Science fiction</dc:subject>
-		<dc:subject id="subject-2">Short stories</dc:subject>
-		<!-- <meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">sh85118629</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">sh85121813</meta> -->
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
-		<dc:description id="description">This e-book contains The Hanging Stranger, both in the original English and an Esperanto translation and is intended for Esperanto learners.</dc:description>
+		<dc:description id="description">A dual-language Esperanto-English translation of The Hanging Stranger.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;This e-book contains The Hanging Stranger, both in the original English and an Esperanto translation and is intended for Esperanto learners.&lt;/p&gt;
+			&lt;p&gt;A dual-language Esperanto-English translation of The Hanging Stranger.&lt;/p&gt;
 		</meta>
-		<dc:language>en-US</dc:language>
+		<dc:language>eo</dc:language>
+		<!-- SOURCES -->
 		<dc:source>https://www.gutenberg.org/ebooks/41562</dc:source>
 		<dc:source>https://archive.org/details/thehangingstrang41562gut/</dc:source>
 		<meta property="se:production-notes">None.</meta>
-		<meta property="se:word-count">10268</meta>
-		<meta property="se:reading-ease.flesch">63.86</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Hanging_Stranger</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/philip-k-dick_the-hanging-stranger</meta>
+		<!-- AUTHOR -->
 		<dc:creator id="author">Philip K. Dick</dc:creator>
 		<meta property="file-as" refines="#author">Dick, Philip K.</meta>
 		<meta property="se:name.person.full-name" refines="#author">Philip Kindred Dick</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Philip_K._Dick</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79018147</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<!-- TRANSCRIBER -->
+		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<!-- COVER ART -->
 		<dc:contributor id="artist">Xosema</dc:contributor>
 		<meta property="file-as" refines="#artist">Xosema</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://commons.wikimedia.org/wiki/File:Praga_-_Viselec_-_David_%C4%8Cern%C3%BD_-_02.jpg</meta>
-		<!-- <meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
-		<meta property="role" refines="#artist" scheme="marc:relators">art</meta> -->
-		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
-		<!-- <meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta> -->
-		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
-		<!-- <meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_URL</meta> -->
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<!-- TRANSLATION -->
+		<dc:contributor id="translator">Paul King</dc:contributor>
+		<meta property="file-as" refines="#translator">King, Paul</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<!-- PRODUCTION -->
 		<dc:contributor id="producer-1">Paul King</dc:contributor>
 		<meta property="file-as" refines="#producer-1">King, Paul</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://kingrpaul.github.io/</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">pbl</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">wat</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
@@ -102,7 +103,7 @@
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="la-pendanta-fremdulo.xhtml"/>
 		<itemref idref="the-hanging-stranger.xhtml"/>
-		<itemref idref="colophon.xhtml"/>		
+		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
 </package>
